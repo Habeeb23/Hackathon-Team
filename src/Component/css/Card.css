@@ -1,0 +1,58 @@
+.zcard {
+  background-color: rgb(1, 1, 27);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.zcard:before {
+  content: "";
+  position: absolute;
+  top: -50;
+  left: 0;
+  width: 30%;
+  height: 120%;
+  opacity: 70%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  /* position: relative; */
+  /* justify-content: left; */
+  margin: 0px;
+  padding: 0px 0px 0px 40px;
+}
+
+.ban-card {
+  margin: 0px;
+  position: relative;
+  text-decoration: none;
+  padding: 5px 30px 10px 10px;
+}
+.bent {
+}
+
+.container img {
+  /* display: flex; */
+  position: relative;
+  width: 2%;
+  height: 2%;
+  margin: 5px;
+
+  /* padding: 0px 0px 0px 40px; */
+}
+
+.container .ban-card {
+  margin: 0px;
+  display: flex;
+  /* padding: 0px 0px 0px 40px; */
+  color: white;
+}
+
+.btn {
+  padding: 0.5rem;
+  margin: 5px;
+  color: black;
+}
